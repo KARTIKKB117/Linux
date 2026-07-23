@@ -1,0 +1,73 @@
+LS - LIST FILES  
+
+CD - CHANGE DIRECTORY 
+
+PWD - PRESENT WORKING DIRECTORY 
+
+MKDIR - CREATE FOLDER 
+
+RM - REMOVE FILE/FOLDER 
+
+CP - COPY FILE/FOLDER
+
+MV - MOVE /RENAME FILE/FOLDER 
+
+CAT - VIEW FILE CONTENTS 
+
+SUDO APT UPDATE &&SUDO APT UPDATE → UPDATE & UPGRADE SYSTEM 
+
+WHOAMI → CHECK LOGGED IN USER 
+
+IFCONFIG /IP A → CHECK NETWORK INFO
+
+UNAME - A → CHECK SYSTEM INFO
+
+HISTORY → VIEW  ALL COMMAND  USED 
+
+CAT - DISPLAY FILE CONTENT 
+
+GREP - SEARCH PATTERN IN AFILE 
+
+CHMOD - CHANGE FILE PERMISSION 
+
+CHOWN - CHANGE FILE OWNERSHIP 
+
+CHGRP - CHANGE GROUP OWNERSHIP OF FILE 
+
+PS - DISPLAY RUNNING PROCESSES
+
+NAVIGATION COMMANDS (FILES ):
+
+pwd - shows current directory 
+
+ls - list files
+
+cd <folder name > - move to a folder 
+
+cd .. → move out of the directory
+
+mkdir <folder name > - create a directory  
+
+rm -r <folder name > - delete directory 
+
+FILE HANDLING COMMANDS :
+
+touch file.txt - create new file 
+
+echo “msg to write inside file ” > file name 
+
+cat file.txt - view file contents 
+
+cp file1 file2 - copy file
+
+mv file1 file2 - move /rename file 
+
+rm file.txt - delete file
+
+ 
+
+TO MAKE NEW DIRECTORY 
+
+⇒       mkdir foldername 
+
+⇒       cd ~        or              cd /home/kali                                   [GO INSIDE YOUR OWN HOME FOLDER ]
