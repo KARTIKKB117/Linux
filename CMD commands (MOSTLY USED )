@@ -1,0 +1,29 @@
+dir
+cd
+mkdir
+rmdir
+copy
+move
+ren
+del
+type
+tree
+start
+systeminfo
+hostname
+whoami
+ipconfig
+ping
+tracert
+nslookup
+netstat
+tasklist
+taskkill
+shutdown
+chkdsk
+sfc /scannow
+diskpart
+net user
+net share
+netsh wlan show profiles
+help
