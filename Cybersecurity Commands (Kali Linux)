@@ -1,0 +1,12 @@
+| **Command**    | **What it does**                            |
+| -------------- | ------------------------------------------- |
+| `nmap target`  | Scans a host or network for open ports.     |
+| `whois domain` | Retrieves domain registration information.  |
+| `tcpdump`      | Captures and analyzes network packets.      |
+| `wireshark`    | Graphical packet analyzer (launch command). |
+| `hydra`        | Password auditing and login testing tool.   |
+| `john`         | Password hash cracking tool.                |
+| `hashcat`      | GPU-accelerated password recovery tool.     |
+| `aircrack-ng`  | Wireless network security testing suite.    |
+| `sqlmap`       | Automated SQL injection testing tool.       |
+| `msfconsole`   | Launches the Metasploit Framework console.  |
