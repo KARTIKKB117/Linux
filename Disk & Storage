@@ -1,0 +1,8 @@
+| **Command**     | **What it does**                                |
+| --------------- | ----------------------------------------------- |
+| `df -h`         | Displays disk usage in a human-readable format. |
+| `du -sh folder` | Shows the size of a folder.                     |
+| `mount`         | Displays mounted file systems.                  |
+| `umount`        | Unmounts a file system.                         |
+| `lsblk`         | Lists block storage devices.                    |
+| `fdisk -l`      | Displays disk partition information.            |
