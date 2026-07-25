@@ -1,0 +1,8 @@
+| **Command**        | **What it does**                         |
+| ------------------ | ---------------------------------------- |
+| `ls -l`            | Displays file permissions and ownership. |
+| `chmod 755 file`   | Changes file permissions.                |
+| `chmod +x file`    | Makes a file executable.                 |
+| `chown user file`  | Changes the file owner.                  |
+| `chgrp group file` | Changes the file group.                  |
+| `umask`            | Displays the default permission mask.    |
