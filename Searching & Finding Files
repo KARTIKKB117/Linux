@@ -1,0 +1,10 @@
+| **Command**               | **What it does**                            |
+| ------------------------- | ------------------------------------------- |
+| `find / -name file.txt`   | Searches for a file by name.                |
+| `find . -type f`          | Finds all files in the current directory.   |
+| `locate file.txt`         | Quickly locates files (uses a database).    |
+| `grep "text" file.txt`    | Searches for text inside a file.            |
+| `grep -i "text" file.txt` | Case-insensitive text search.               |
+| `grep -r "text" folder`   | Searches recursively inside folders.        |
+| `which command`           | Shows the path of a command.                |
+| `whereis command`         | Shows binary, source, and manual locations. |
