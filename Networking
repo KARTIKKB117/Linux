@@ -1,0 +1,13 @@
+| **Command**       | **What it does**                                  |
+| ----------------- | ------------------------------------------------- |
+| `ip a`            | Displays IP addresses and network interfaces.     |
+| `ip route`        | Displays the routing table.                       |
+| `ping host`       | Tests network connectivity.                       |
+| `curl URL`        | Retrieves data from a URL.                        |
+| `wget URL`        | Downloads files from the web.                     |
+| `ss -tulnp`       | Displays listening ports and network connections. |
+| `netstat -tulnp`  | Shows network connections (older command).        |
+| `traceroute host` | Shows the network path to a host.                 |
+| `nslookup domain` | Looks up DNS records.                             |
+| `dig domain`      | Retrieves detailed DNS information.               |
+| `hostname -I`     | Displays the system's IP address.                 |
