@@ -1,0 +1,88 @@
+| **Command**                                         | **What it does**                                          |
+| --------------------------------------------------- | --------------------------------------------------------- |
+| `cls`                                               | Clears the Command Prompt screen.                         |
+| `echo Hello`                                        | Displays text on the screen.                              |
+| `echo Hello > file.txt`                             | Creates a file and writes text into it.                   |
+| `dir`                                               | Lists all files and folders in the current directory.     |
+| `cd`                                                | Displays the current directory.                           |
+| `cd FolderName`                                     | Changes to the specified folder.                          |
+| `cd ..`                                             | Moves up one directory.                                   |
+| `cd \`                                              | Goes to the root directory of the current drive.          |
+| `C:` / `D:` / `E:`                                  | Switches to another drive.                                |
+| `mkdir FolderName`                                  | Creates a new folder.                                     |
+| `md FolderName`                                     | Alternative command to create a folder.                   |
+| `rmdir FolderName`                                  | Deletes an empty folder.                                  |
+| `rd FolderName`                                     | Alternative command to delete an empty folder.            |
+| `rmdir /s FolderName`                               | Deletes a folder and all its contents.                    |
+| `type nul > file.txt`                               | Creates an empty file.                                    |
+| `type file.txt`                                     | Displays the contents of a text file.                     |
+| `copy source destination`                           | Copies a file.                                            |
+| `xcopy source destination`                          | Copies folders and files.                                 |
+| `robocopy source destination`                       | Advanced file and folder copying.                         |
+| `move source destination`                           | Moves a file or folder.                                   |
+| `ren oldname newname`                               | Renames a file or folder.                                 |
+| `del filename`                                      | Deletes a file.                                           |
+| `erase filename`                                    | Alternative command to delete a file.                     |
+| `tree`                                              | Displays the folder structure in a tree format.           |
+| `start .`                                           | Opens the current folder in File Explorer.                |
+| `start filename`                                    | Opens a file with its default application.                |
+| `notepad`                                           | Opens Notepad.                                            |
+| `calc`                                              | Opens Calculator.                                         |
+| `mspaint`                                           | Opens Microsoft Paint.                                    |
+| `explorer`                                          | Opens File Explorer.                                      |
+| `systeminfo`                                        | Displays detailed system information.                     |
+| `hostname`                                          | Displays the computer's name.                             |
+| `whoami`                                            | Displays the current logged-in user.                      |
+| `ver`                                               | Displays the Windows version.                             |
+| `date`                                              | Displays or changes the system date.                      |
+| `time`                                              | Displays or changes the system time.                      |
+| `ipconfig`                                          | Displays IP configuration.                                |
+| `ipconfig /all`                                     | Displays detailed network configuration.                  |
+| `ipconfig /release`                                 | Releases the current IP address.                          |
+| `ipconfig /renew`                                   | Renews the IP address.                                    |
+| `ipconfig /flushdns`                                | Clears the DNS cache.                                     |
+| `ping hostname`                                     | Tests connectivity to another device or website.          |
+| `tracert hostname`                                  | Shows the route packets take to a destination.            |
+| `pathping hostname`                                 | Combines `ping` and `tracert` with network statistics.    |
+| `nslookup domain`                                   | Looks up DNS information for a domain.                    |
+| `netstat`                                           | Displays active network connections.                      |
+| `netstat -an`                                       | Displays all active connections with ports.               |
+| `arp -a`                                            | Displays the ARP cache.                                   |
+| `route print`                                       | Displays the routing table.                               |
+| `getmac`                                            | Displays MAC addresses of network adapters.               |
+| `tasklist`                                          | Lists all running processes.                              |
+| `taskkill /IM app.exe /F`                           | Forcefully terminates a running process.                  |
+| `shutdown /s /t 0`                                  | Shuts down the computer immediately.                      |
+| `shutdown /r /t 0`                                  | Restarts the computer immediately.                        |
+| `shutdown /a`                                       | Cancels a scheduled shutdown.                             |
+| `chkdsk`                                            | Checks the disk for file system errors.                   |
+| `sfc /scannow`                                      | Scans and repairs corrupted Windows system files.         |
+| `diskpart`                                          | Opens the Disk Partition utility.                         |
+| `format D:`                                         | Formats a drive (⚠️ deletes all data).                    |
+| `label`                                             | Changes the volume label of a drive.                      |
+| `attrib`                                            | Displays or changes file attributes.                      |
+| `fc file1 file2`                                    | Compares two files.                                       |
+| `find "text" file.txt`                              | Searches for text within a file.                          |
+| `findstr "text" *.txt`                              | Searches for text in multiple files.                      |
+| `sort`                                              | Sorts lines of text alphabetically.                       |
+| `more`                                              | Displays output one page at a time.                       |
+| `clip`                                              | Copies command output to the clipboard.                   |
+| `help`                                              | Lists all available CMD commands.                         |
+| `command /?`                                        | Displays help for a specific command.                     |
+| `dir /?`                                            | Displays help and options for the `dir` command.          |
+| `set`                                               | Displays or sets environment variables.                   |
+| `path`                                              | Displays or changes the executable search path.           |
+| `assoc`                                             | Displays or changes file associations.                    |
+| `ftype`                                             | Displays or changes file type associations.               |
+| `net user`                                          | Displays user accounts on the computer.                   |
+| `net user username password /add`                   | Creates a new user account.                               |
+| `net localgroup administrators username /add`       | Adds a user to the Administrators group.                  |
+| `net share`                                         | Displays shared folders.                                  |
+| `net use`                                           | Connects to or disconnects from shared network resources. |
+| `net view`                                          | Displays computers on the local network.                  |
+| `netsh wlan show profiles`                          | Lists saved Wi-Fi profiles.                               |
+| `netsh wlan show profile name="WiFiName" key=clear` | Displays the password of a saved Wi-Fi profile.           |
+| `driverquery`                                       | Lists installed device drivers.                           |
+| `wmic cpu get name`                                 | Displays the CPU model (legacy command).                  |
+| `wmic diskdrive get model,size`                     | Displays disk information (legacy command).               |
+| `exit`                                              | Closes the Command Prompt window.                         |
