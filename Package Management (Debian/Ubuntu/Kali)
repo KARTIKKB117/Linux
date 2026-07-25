@@ -1,0 +1,9 @@
+| **Command**                | **What it does**                         |
+| -------------------------- | ---------------------------------------- |
+| `sudo apt update`          | Updates package lists.                   |
+| `sudo apt upgrade`         | Upgrades installed packages.             |
+| `sudo apt install package` | Installs a package.                      |
+| `sudo apt remove package`  | Removes a package.                       |
+| `sudo apt purge package`   | Removes a package and its configuration. |
+| `sudo apt autoremove`      | Removes unused dependencies.             |
+| `apt search package`       | Searches for available packages.         |
