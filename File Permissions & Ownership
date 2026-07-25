@@ -6,3 +6,9 @@
 | `chown user file`  | Changes the file owner.                  |
 | `chgrp group file` | Changes the file group.                  |
 | `umask`            | Displays the default permission mask.    |
+
+| **Command**      | **What it does**                             |
+| ---------------- | -------------------------------------------- |
+| `nano file.txt`  | Opens a file in the Nano editor.             |
+| `vim file.txt`   | Opens a file in the Vim editor.              |
+| `gedit file.txt` | Opens a graphical text editor (GUI systems). |
