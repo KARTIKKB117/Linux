@@ -1,0 +1,35 @@
+| **Command**               | **What it does**                                  |
+| ------------------------- | ------------------------------------------------- |
+| `pwd`                     | Shows the current working directory.              |
+| `ls`                      | Lists files and folders in the current directory. |
+| `ls -l`                   | Lists files with detailed information.            |
+| `ls -a`                   | Shows all files, including hidden files.          |
+| `cd directory`            | Changes to the specified directory.               |
+| `cd ..`                   | Moves one directory up.                           |
+| `cd ~`                    | Goes to your home directory.                      |
+| `mkdir folder`            | Creates a new directory.                          |
+| `rmdir folder`            | Removes an empty directory.                       |
+| `rm file`                 | Deletes a file.                                   |
+| `rm -r folder`            | Deletes a directory and its contents.             |
+| `rm -rf folder`           | Force deletes a directory and its contents.       |
+| `touch file.txt`          | Creates an empty file.                            |
+| `cp source destination`   | Copies files or directories.                      |
+| `mv source destination`   | Moves or renames files/directories.               |
+| `cat file.txt`            | Displays the contents of a file.                  |
+| `less file.txt`           | Views large files one page at a time.             |
+| `head file.txt`           | Shows the first 10 lines of a file.               |
+| `tail file.txt`           | Shows the last 10 lines of a file.                |
+| `tail -f file.txt`        | Monitors a file in real time (useful for logs).   |
+| `clear`                   | Clears the terminal screen.                       |
+| `history`                 | Displays previously executed commands.            |
+| `echo "text"`             | Prints text to the terminal.                      |
+| `echo "text" > file.txt`  | Writes text to a file (overwrites).               |
+| `echo "text" >> file.txt` | Appends text to a file.                           |
+| `whoami`                  | Displays the current logged-in user.              |
+| `id`                      | Shows user ID (UID), group ID (GID), and groups.  |
+| `hostname`                | Displays the system hostname.                     |
+| `uname -a`                | Shows detailed system information.                |
+| `date`                    | Displays the current date and time.               |
+| `cal`                     | Displays the current month's calendar.            |
+
+
