@@ -1,0 +1,12 @@
+| **Command**   | **What it does**                           |
+| ------------- | ------------------------------------------ |
+| `ps`          | Displays running processes.                |
+| `ps aux`      | Shows all running processes.               |
+| `top`         | Real-time process monitoring.              |
+| `htop`        | Interactive process viewer (if installed). |
+| `kill PID`    | Terminates a process by its PID.           |
+| `kill -9 PID` | Forcefully terminates a process.           |
+| `pkill name`  | Terminates processes by name.              |
+| `jobs`        | Lists background jobs.                     |
+| `bg`          | Resumes a job in the background.           |
+| `fg`          | Brings a background job to the foreground. |
